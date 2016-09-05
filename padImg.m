@@ -1,3 +1,4 @@
+%Pads an image by P pixels on each side
 function [img]=padImg(img,P)
 
 N=size(img,1);
